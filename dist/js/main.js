@@ -1,28 +1,28 @@
 // quotes are stored in an array of objects
 var quotes = [{
   "attrib": "Steve Jobs",
-  "quote": "Design is not just what it looks like and feels like. Design is how it works."
+  "quote": "You were born after 1990."
 }, {
   "attrib": "Steve Jobs",
-  "quote": "Innovation distinguishes between a leader and a follower."
+  "quote": "You like any emo producted after 2005."
 }, {
   "attrib": "Albert Einstein",
-  "quote": "Reality is merely an illusion, albeit a very persistent one."
+  "quote": "You liked the band Jet, off of 2004."
 }, {
   "attrib": "Albert Einstein",
-  "quote": "If you can't explain it simply, you don't understand it well enough."
+  "quote": "You use a burr coffee bean grinder for a better 'flavour profile'."
 }, {
   "attrib": "Albert Einstein",
-  "quote": "Strive not to be a success, but rather to be of value."
+  "quote": "You've never sent a 'you still up' text after 2:00am."
 }, {
   "attrib": "Steve Jobs",
-  "quote": "Your time is limited, so don’t waste it living someone else’s life."
+  "quote": "You've never met a UK Gladiator."
 }, {
   "attrib": "Bill Gates",
-  "quote": "Success is a lousy teacher. It seduces smart people into thinking they can't lose."
+  "quote": "You've ever rattled out wonderwall on a acoustic guitar at a party."
 }, {
   "attrib": "Albert Einstein",
-  "quote": "Science without religion is lame, religion without science is blind."
+  "quote": "You smoke roll ups."
 }, {
   "attrib": "Henry Ford",
   "quote": "Whether you think you can or you think you can’t, you’re right."
