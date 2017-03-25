@@ -1,0 +1,78 @@
+mixin checkbox(label, value, status)
+  div.ch-col--md-2
+    div.ch-checkbox
+      label
+        input(type="checkbox", id="checkbox_test", class="ch-checkbox__input")
+        != label
+        span.ch-checkbox__switch
+
+mixin date(label, value, status)
+  if label != ""
+    div.ch-col--md-2
+      label.ch-form__control-label= label
+  div.ch-col--md-4  
+    input(type="date", value=value, #{status}).ch-form__control.ch-form__control--sm
+
+mixin text(label, value, status)
+  if label !=""
+    div.ch-col--md-2
+      label.ch-form__control-label= label
+  div.ch-col--md-4
+    input(type="text", value=value, (status)).ch-form__control.ch-form__control--sm
+
+mixin email(label, value, status)
+  if label !=""
+    div.ch-col--md-2
+      label.ch-form__control-label= label
+  div.ch-col--md-4
+    input(type="email", value=value, (status)).ch-form__control.ch-form__control--sm
+
+mixin textarea(label, value)
+  if label != ""
+    div.ch-col--md-2
+      label.ch-form__control-label= label
+  div.ch-col--md-4
+    textarea().ch-form__control.ch-form__control--sm= value
+
+mixin number(label, value, status, step)
+  if label != ""
+    div.ch-col--md-2
+      label.ch-form__control-label= label
+  div.ch-col--md-4
+    input(type="number", value=value, step=step, (status)).ch-form__control.ch-form__control--sm
+
+mixin password(label, value, status, step)
+  if label != ""
+    div.ch-col--md-2
+      label.ch-form__control-label= label
+  div.ch-col--md-4
+    input(type="password", value=value, step=step, (status)).ch-form__control.ch-form__control--sm
+
+mixin select(label, value, status, options)
+  if label !=""
+    div.ch-col--md-2
+      label.ch-form__control-label= label
+  div.ch-col--md-4
+    select((status)).ch-form__control.ch-form__control--sm
+      each option in options
+        option(value=option.value)= option.text
+
+mixin time(label, hour, minute)
+  if label != ""
+    div.ch-col--md-2
+      label.ch-form__control-label= label
+  
+  div.ch-col--md-2
+    select.ch-form__control.ch-form__control--sm
+      each n in ["00", "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23"]
+        option(value=n)= n
+  
+  div.ch-col--md-2
+    select.ch-form__control.ch-form__control--sm
+      each n in ["00", "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59" ]
+        option(value=n)= n
+
+mixin row(title)
+  div.ch-row
+    block
+  

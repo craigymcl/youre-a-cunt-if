@@ -1,0 +1,48 @@
+extends layouts/_layout.pug
+
+
+block content
+      section#whatWeDo.fullWidth.fullWidth--bgBaseColor.fullWidth_Panel.fullWidth_Panel--regPadding.introPanel
+        .container
+          .cpIntro.cpIntro--fixedWidth
+            .cpTagline.cpTagline--withSubTag.cpTagline--withGreyDivider
+              h1 We're a web design agency based in Glasgow
+              p
+                | We deliver the highest quality work without the agency price tag. If you need an app or website designed, brand development
+                | or digital design, planning or strategy, SEO or marketing then we've got you covered. We truly can deliver anything
+                | digital.
+      section#ourWork.fullWidth
+      .cpCaseStudyBlock.cpCaseStudyBlock--flex
+        .cpCaseStudyBlock_Panel.cpCaseStudyBlock_Panel--imagePanel
+          a(href='/web-design-bread-meats-bread-glasgow.html')
+            img(src='images/final/work/thumb-bmb-small.jpg', alt='Bread Meats Bread')
+        .cpCaseStudyBlock_Panel.cpCaseStudyBlock_Panel--caseStudy
+          .in
+            h3 Bread Meats Bread
+            p
+              | We've worked with Bread Meats Bread on a number of projects, from reworking their brand identity to the design
+              | and build of there stunning website.
+            a(href='/web-design-bread-meats-bread-glasgow') View case study
+      .cpCaseStudyBlock.cpCaseStudyBlock--flex
+        .cpCaseStudyBlock_Panel.cpCaseStudyBlock_Panel--caseStudy
+          .in
+            h3 R P Lighting Design
+            p
+              | We've just stated work on the brand identity and new website of Glasgow Lighting design company RPLD. Keep your
+              | eyes peeled, we'll have a complete case study soon.
+            // <a href="case-study.html">View case study</a>
+            p Coming soon
+        .cpCaseStudyBlock_Panel.cpCaseStudyBlock_Panel--imagePanel
+          img(src='images/final/work/thumb-rpld.jpg', alt='RP Lighting Design')
+      .cpCaseStudyBlock.cpCaseStudyBlock--flex
+        .cpCaseStudyBlock_Panel.cpCaseStudyBlock_Panel--imagePanel
+          a(href='/skies-fell')
+            img(src='images/final/work/thumb-skies-fell.jpg', alt='Skies Fell')
+        .cpCaseStudyBlock_Panel.cpCaseStudyBlock_Panel--caseStudy
+          .in
+            h3 Skies Fell
+            p
+              | While we're very much digital natives, we just can't resist diving into the phyisical and print workd when we have
+              | the chance. Creating this album artwork for Glasgow Band Skies Fell was a delight and we're very proud of the
+              | final peice.
+            a(href='/skies-fell') View case study

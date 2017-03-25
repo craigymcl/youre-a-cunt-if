@@ -1,0 +1,131 @@
+.open {
+  .cpSiteNav {
+    &--main {
+      @media(max-width:em(770)) {
+        top: 0;
+        transition: 0.25s all;
+        transition-timing-function: cubic-bezier(0,.53,.40,.62);
+      }
+    }
+  }
+
+  .cpBrand {
+    path {
+      @media(max-width:em(770)) {
+        fill: $baseColor;
+        transition: 0.25s ease-in all;
+      }
+    }
+  }
+
+  .hamburgerIcon {
+    color: $baseColor;
+    border-color: $baseColor;
+  }
+}
+
+.cpSiteNav {
+    &--main {
+        @media(max-width:em(770)) {
+            position:fixed;
+            left:0;
+            top:100%;
+            min-height: 100vh;
+            min-width: 100vw;
+            min-width: 100vw;
+            display:flex;
+            align-items:center;
+            align-self: center;
+            justify-content:center;
+            background: $green;
+            transition: 0.25s all;
+            transition-timing-function: cubic-bezier(0,.53,.40,.62);
+        }
+        a {
+            font-family: $heading-font;
+            color:$white;
+            letter-spacing:1px;
+            text-decoration:none;
+            font-weight:$extrabold;
+            font-size: em(14);
+            text-transform: uppercase;
+            @media(max-width:em(770)) {
+              text-transform: none;
+              font-size: em(26);
+              &:hover {
+                color: $baseColor;
+              }
+            }
+        }
+        li {
+            margin-right:em(59);
+            font-size:em(16);
+            @media(max-width:em(770)) {
+                margin:0;
+                text-align:center;
+                display:block !important;
+                font-size:em(32);
+                margin-bottom:em(10);
+            }
+        }
+    }
+    &--right {
+        float:right;
+    }
+}
+
+.cpList {
+    &_listItem {
+        line-height:1;
+    }
+    &--inline {
+        li {
+            display:inline;
+            a {
+                display:inline-block;
+            }
+        }
+    }
+    &--uppercase {
+        text-transform:uppercase;
+    }
+    .cpList_listItem {
+        &--lastElem {
+            margin-right:0;
+        }
+    }
+}
+
+.cpBrand {
+    position:relative;
+    z-index:10;
+    &--main {
+        flex-grow:1;
+        path {
+            transition:all 0.6s ease;
+        }
+    }
+    &--logo {
+        max-width:em(198);
+    }
+}
+
+
+
+
+.hamburgerIcon {
+    position:relative;
+    display:none;
+    font-size: em(18);
+    font-weight: 900;
+    color: $white;
+    text-decoration: none;
+    border-bottom: em(3) solid $white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor:pointer;
+    transition:all 0.6s ease;
+    @media(max-width:em(770)) {
+        display:block;
+    }
+}

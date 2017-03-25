@@ -1,0 +1,28 @@
+extends ../../../layouts/_layout.pug
+include ../../../mixins/_form.pug
+
+block content
+  div.ch-container
+    h1 Edit New
+    form.ch-form__group.ch-form__group--sm.ch-well--bordered
+      +row
+        +select("Role", "accounts", "", [{value: "accounts", text: "Accounts"}])
+        +select("Title", "mr", "", [{value: "mr", text: "Mr"}])
+
+      +row
+        +text("Forename", "Andy")
+        +text("Surname", "Allan")
+
+      +row
+        +password("Password")
+        +text("Employee ID", "123445")
+
+      +row
+        +select("Franchise", "renault/chrysler/jeep", "", [{value: "renault/chrysler/jeep", text: "Renault/Chrysler/Jeep"}])
+        +select("Branch", "bearsden renault/dacia", "", [{value: "bearsden renault/dacia", text: "Bearsden Renault/Dacia"}])
+
+      +row
+        +email("Email", "andy.allan@arnoldclark.com")
+        +text("Phone Number", "01222334455")
+
+      input(type="submit").ch-btn.ch-btn--primary.ch-btn--sm

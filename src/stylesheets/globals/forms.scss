@@ -1,0 +1,15 @@
+.cpIntro {
+  a {
+    color: $green;
+  }
+    &--fixedWidth {
+        max-width:em(640);
+        margin:0 auto;
+    }
+    &--textLarge {
+        font-size:160%;
+        @media(max-width:em(770)) {
+            font-size:140%;
+        }
+    }
+}

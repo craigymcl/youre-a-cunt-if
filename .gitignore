@@ -1,0 +1,16 @@
+# Sass Cache remove #
+#####################
+*.sass-cache
+
+# Ignore Sass' cache
+/.sass-cache
+
+
+# Ignore Compiled CSS
+/css/style.css
+/css/style.css.map
+/css/style.min.css
+
+# Ignore the Node Modules folder
+/node_modules
+*node_modules

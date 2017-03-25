@@ -1,0 +1,30 @@
+.fullWidth {
+  &_Panel {
+    &--footer {
+      background: darken($baseColor, 0.5);
+      padding: em(20) 0;
+    }
+  }
+}
+
+.cpBrand {
+    &--footer {
+      display: inline-block;
+      width: 50%;
+      text-align: left;
+      vertical-align: middle;
+    }
+}
+
+.socialLinks {
+  display: inline-block;
+  width: 50%;
+  text-align: right;
+  float:right;
+  vertical-align: middle;
+  margin-top: em(20);
+  a {
+    margin-left: em(20);
+    text-decoration:none;
+  }
+}

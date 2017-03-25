@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /includes/
+
+Sitemap: http://trefoil.digital/sitemap.xml

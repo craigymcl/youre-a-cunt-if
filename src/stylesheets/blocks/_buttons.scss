@@ -1,0 +1,35 @@
+.ctaBtn {
+    &--center {
+        margin:0 auto;
+        text-align:center;
+    }
+}
+
+div .btn {
+    box-shadow:none;
+    border:none;
+    display:inline-block;
+    padding:em(17) em(22);
+    text-align:center;
+    font-size:em(18);
+    letter-spacing:1px;
+    text-decoration:none;
+    font-family:$heading-font;
+    font-weight: $extrabold;
+    text-transform:uppercase;
+    transition:all 0.2s linear;
+    &:hover {
+        cursor:pointer;
+        background: tint($green, .8);
+    }
+    &--rounded {
+        border-radius:em(5);
+    }
+    &--green {
+        background:$green;
+        color:$white;
+        &:hover {
+          background: darken($green, 30%);
+        }
+    }
+}

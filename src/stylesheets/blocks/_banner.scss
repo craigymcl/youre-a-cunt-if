@@ -1,0 +1,71 @@
+.fullWidth {
+    &--bgHeadPattern {
+        background: #292934 url('../images/hero-bg.svg') no-repeat;
+        background-size: cover;
+        background-position: 40.6% center;
+    }
+    &--bgBaseColor {
+        background: $baseColor;
+    }
+    &--fullHeight {
+        min-height: 100vh;
+        @media(max-width: em(640)) {
+            min-height:90vh;
+        }
+        @media(min-width:em(1440)) {
+            min-height: 80vh;
+        }
+    }
+    &--flex {
+        display: flex;
+        align-items: center;
+    }
+    &--centerContent {
+        display: flex;
+        align-items: center;
+    }
+    &--caseStudyIntro {
+        position: relative;
+        &:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.4);
+        }
+    }
+    &--breadMeatsBread {
+        background: url('../images/work/thumb-bmb.jpg') #1c172d;
+        background-size: cover;
+        background-position: center;
+    }
+    &--skiesFell {
+        background: url('../images/work/sf-hero.jpg') #6f8194;
+        background-size: cover;
+        background-position: center;
+    }
+    &_Panel { 
+        &--regPadding {
+            padding: em(102) 0;
+            @media(max-width: em(990)) {
+                padding:em(50) 0;
+            }
+        }
+        &--smallPadding {
+            padding: em(20) 0;
+            @media(max-width: em(770)) {
+                padding:0;
+            }
+        }
+        &--contact {
+            background: #292934 url('../images/footer-bg.svg') no-repeat;
+            background-size: contain;
+            background-position: center center;
+            h2 {
+                font-size: em(50);
+            }
+        }
+    }
+}

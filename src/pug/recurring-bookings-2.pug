@@ -1,0 +1,60 @@
+extends layouts/_layout.pug
+
+block content
+  div.ch-container
+    h1 Book Recurring Media (page 2)
+
+    h4 Branch Group Allocation
+
+  div.ch-container
+    div.ch-well--bordered
+      legend
+        p Please review the branch group allocation
+
+      dl
+        dt: strong Publication
+        dd AA cars (was Vcars)
+        dt: strong Group
+        dd Vcars
+        dt: strong Size
+        dd Vcars
+
+  div.ch-container
+    div.ch-well--bordered
+      table
+        thead
+          tr
+            th Insertion Date
+            th Branch group
+            th Branch List
+            th
+        tbody
+          tr
+            td 01/02/2017 00:00:00
+            td
+            td Web-Group Web
+            td
+          tr
+            td 05/02/2017 00:00:00
+            td
+            td Web-Group Web
+            td
+          tr
+            td 25/02/2017 00:00:00
+            td
+            td
+            td
+              a(hre="#").ch-btn.ch-btn--primary.ch-btn--sm Edit
+              a(hre="#").ch-btn.ch-btn--danger.ch-btn--sm Delete
+          tr
+            td 01/03/2017 00:00:00  
+            td
+            td Web-Group Web
+            td
+          tr
+            td(colspan="4") Pagination
+
+      a(href="/recurring-bookings.html").ch-btn.ch-btn--sm.ch-btn--primary Previous
+      a(href="#").ch-btn.ch-btn--sm.ch-btn--cta Make Booking
+
+      
