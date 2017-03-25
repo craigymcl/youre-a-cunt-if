@@ -72,4 +72,4 @@ gulp.task('watch', function() {
 });
 
 
-gulp.task('default', gulp.series(['browser-sync', 'sass', 'pug', 'fonts', 'image', 'watch']));
+gulp.task('default', gulp.series(['browser-sync', 'sass', 'pug', 'watch']));
