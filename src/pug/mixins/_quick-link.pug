@@ -1,7 +1,0 @@
-mixin quick-link(link, heading, title, icon, hidden) 
-  - var hiddenClass
-  if hidden
-    - hiddenClass = "hidden"
-  li.ch-col.ch-col--lg-3.quick-links__list-item(class=hiddenClass)
-    a(href=link, title=title, class=icon)
-      h5= heading
