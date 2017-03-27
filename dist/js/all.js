@@ -34,13 +34,30 @@ var quotes = [{
   "quote": "You prefer the Nine Inch Nails version of Hurt."
 }];
 
+var colours = [{
+  "classname": "colours1"
+}, {
+  "classname": "colours2"
+}, {
+  "classname": "colours3"
+}, {
+  "classname": "colours4"
+}, {
+  "classname": "colours5"
+}, {
+  "classname": "colours6"
+}];
+
 // function to load and display a new quote
 function newQuote() {
   var quoteID = Math.floor(Math.random() * (quotes.length));
+  var coloursID = Math.floor(Math.random() * (colours.length));
+  $('body').addClass(colours[coloursID].classname);
   $("#quote").html(quotes[quoteID].quote);
   $("#attrib").html(quotes[quoteID].attrib);
-  $("#twitterButton").attr("href", "http://twitter.com/intent/tweet?text=" + quotes[quoteID].quote + " via @youreacuntif #youreacuntif");
+  $("#twitterButton").attr("href", "http://twitter.com/intent/tweet?text=" + "You're a cunt if…" + quotes[quoteID].quote + " via @youreacuntif %23youreacuntif");
 }
+
 
 // wait for page load before displaying content
 $(document).ready(function() {
@@ -50,5 +67,6 @@ $(document).ready(function() {
   // retrieve a new quote when the button is clicked
   $("#generateButton").on("click", function() {
     newQuote();
+
   });
 });

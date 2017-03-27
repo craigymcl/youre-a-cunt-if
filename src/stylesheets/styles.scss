@@ -3,13 +3,15 @@
 @import 'globals/breakpoints';
 @import 'globals/typography';
 @import 'globals/layout';
-@import 'globals/forms';
 
 body {
-  background: #454545!important;
   text-align: center;
 }
+h1 {
+  color: white;
+}
 #quote {
+  color: white;
   font-size: 10vh;
   font-weight: 900;
 }
