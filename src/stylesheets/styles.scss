@@ -4,14 +4,78 @@
 @import 'globals/typography';
 @import 'globals/layout';
 
+html > body {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
 body {
   text-align: center;
+  height: 100%;
+  width: 100%;
 }
+
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 h1 {
-  color: white;
+  position: absolute;
+  top: em(20);
+  left: em(30);
+  font-weight: 800;
+  font-size: em(30);
 }
+
+.cuntribute {
+  position: absolute;
+  bottom: em(30);
+  right: em(30);
+  border-bottom: 1px solid;
+  font-size: em(20);
+}
+
 #quote {
-  color: white;
-  font-size: 10vh;
+  width: 80vw;
+  display: block;
+  font-size: em(180);
   font-weight: 900;
+  text-align: center;
+}
+
+.another-reason {
+  align-self: flex-end;
+}
+
+.btn {
+  margin: em(40) 0;
+  display: block;
+  position: relative;
+  float: left;
+  font-size: em(24);
+  padding: em(10) em(20);
+  font-weight: lighter;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 5px;
+  transition: all 0.2s ;
+  &:hover {
+    cursor: pointer;
+    transform: translateY(em(5));
+  }
+}
+
+#twitterButton {
+  text-decoration: none;
+  font-size: em(20);
+  border-bottom: 1px solid;
 }

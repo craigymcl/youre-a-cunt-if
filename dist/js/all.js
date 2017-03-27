@@ -56,6 +56,7 @@ function newQuote() {
   $("#quote").html(quotes[quoteID].quote);
   $("#attrib").html(quotes[quoteID].attrib);
   $("#twitterButton").attr("href", "http://twitter.com/intent/tweet?text=" + "You're a cunt if…" + quotes[quoteID].quote + " via @youreacuntif %23youreacuntif");
+  $(".cuntribute").attr("href", "http://twitter.com/intent/tweet?text=" + "@youreacuntif Hey cunto, how about this...");
 }
 
 
@@ -66,6 +67,7 @@ $(document).ready(function() {
 
   // retrieve a new quote when the button is clicked
   $("#generateButton").on("click", function() {
+    $('body').removeClass();
     newQuote();
 
   });
