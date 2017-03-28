@@ -34,6 +34,19 @@ h1 {
   left: em(30);
   font-weight: 800;
   font-size: em(30);
+
+  @media screen and (max-width: 640px) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: em(20);
+    display: block;
+    width: 100%;
+    padding: em(18);
+    text-align: center;
+    background: rgba(0,0,0, .2);
+    text-shadow: none!important;
+  }
 }
 
 .cuntribute {
@@ -50,6 +63,10 @@ h1 {
   font-size: 7vw;
   font-weight: 900;
   text-align: center;
+  @media screen and (max-width: 640px) {
+    font-size: 11vw;
+    line-height: 1.2;
+  }
 }
 
 .another-reason {
@@ -71,6 +88,10 @@ h1 {
   &:hover {
     cursor: pointer;
     transform: translateY(em(5));
+  }
+  @media screen and (max-width: 640px) {
+    padding: em(5) em(10);
+    font-size: em(20);
   }
 }
 
