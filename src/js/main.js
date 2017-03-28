@@ -100,8 +100,8 @@ function newQuote() {
   $('body').addClass(colours[coloursID].classname);
   $("#quote").html(quotes[quoteID].quote);
   $("#attrib").html(quotes[quoteID].attrib);
-  $("#twitterButton").attr("href", "http://twitter.com/intent/tweet?text=" + "You're a cunt if…" + quotes[quoteID].quote + " via @youreacuntif %23youreacuntif");
-  $(".cuntribute").attr("href", "http://twitter.com/intent/tweet?text=" + "@youreacuntif Hey cunto, how about this...");
+  $("#twitterButton").attr("href", "http://twitter.com/intent/tweet?text=" + "You're a cunt if…" + quotes[quoteID].quote + " via @youreacunt_if %23youreacuntif");
+  $(".cuntribute").attr("href", "http://twitter.com/intent/tweet?text=" + "@youreacunt_if Hey cunto, how about this...");
 }
 
 
