@@ -141,3 +141,90 @@
     color: $button5;
   }
 }
+
+.colours6 {
+
+  $bg-colour6: #B8AE9C;
+  $links6: #595241;
+  $button6: #FFFFFF;
+  $quote-colour6: #FFFFFF;
+
+  background: $bg-colour6;
+  h1 {
+    color: $quote-colour6;
+    text-shadow: 2px 2px 0px darken( $bg-colour6, 05% );
+  }
+  p {
+    color: $quote-colour6;
+    text-shadow: 10px 10px 0px darken( $bg-colour6, 05% );
+  }
+  .btn {
+    color: $quote-colour6;
+    background: $links6;
+    box-shadow: 0px 5px 0px 0px darken( $links6, 05% );
+    &:hover {
+      box-shadow: 0px 0px 0px 0px $button6;
+    }
+  }
+  #twitterButton, .cuntribute {
+    color: $links6;
+  }
+}
+
+.colours7 {
+
+  $bg-colour7: #333745;
+  $links7: #77C4D3;
+  $button7: #EA2E49;
+  $quote-colour7: #DAEDE2;
+
+  background: $bg-colour7;
+  h1 {
+    color: $quote-colour7;
+    text-shadow: 2px 2px 0px darken( $bg-colour7, 05% );
+  }
+  p {
+    color: $quote-colour7;
+    text-shadow: 10px 10px 0px darken( $bg-colour7, 05% );
+  }
+  .btn {
+    color: $quote-colour7;
+    background: $button7;
+    box-shadow: 0px 5px 0px 0px darken( $button7, 05% );
+    &:hover {
+      box-shadow: 0px 0px 0px 0px $button7;
+    }
+  }
+  #twitterButton, .cuntribute {
+    color: $links7;
+  }
+}
+
+.colours8 {
+
+  $bg-colour8: #F56456;
+  $links8: #FFE7B2;
+  $button8: #FF974F;
+  $quote-colour8: #FFE7B2;
+
+  background: $bg-colour8;
+  h1 {
+    color: $quote-colour8;
+    text-shadow: 2px 2px 0px darken( $bg-colour8, 05% );
+  }
+  p {
+    color: $quote-colour8;
+    text-shadow: 10px 10px 0px darken( $bg-colour8, 05% );
+  }
+  .btn {
+    color: $quote-colour8;
+    background: $button8;
+    box-shadow: 0px 5px 0px 0px darken( $button8, 05% );
+    &:hover {
+      box-shadow: 0px 0px 0px 0px $button8;
+    }
+  }
+  #twitterButton, .cuntribute {
+    color: $links8;
+  }
+}
