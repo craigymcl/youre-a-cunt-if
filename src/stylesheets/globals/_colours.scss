@@ -1,238 +1,286 @@
 .colours1 {
+    $bg-colour: #01798E;
+    $button-links: #222526;
+    $quote-colour: #E1F4F7;
+    background: $bg-colour;
 
-  $bg-colour: #01798E;
-  $button-links: #222526;
-  $quote-colour: #E1F4F7;
-
-  background: $bg-colour;
-  h1 {
-    color: $quote-colour;
-    text-shadow: 2px 2px 0px darken( $bg-colour, 05% );
-  }
-  p {
-    color: $quote-colour;
-    text-shadow: 10px 10px 0px darken( $bg-colour, 05% );
-    text-shadow: 2px 2px 0px darken( $bg-colour, 05% );
-  }
-  .btn {
-    color: $quote-colour;
-    background: $button-links;
-    box-shadow: 0px 5px 0px 0px darken( $button-links, 05% );
-    &:hover {
-      box-shadow: 0px 0px 0px 0px $button-links;
+    h1 {
+        color: $quote-colour;
+        text-shadow: 2px 2px 0 darken( $bg-colour, 05% );
     }
-  }
-  #twitterButton, .cuntribute {
-    color: $button-links;
-  }
+
+    p {
+        color: $quote-colour;
+        text-shadow: 10px 10px 0 darken( $bg-colour, 05% );
+        @media screen and (max-width: 640px) {
+            text-shadow: 2px 2px 0 darken( $bg-colour, 05% );
+        }
+    }
+
+    .btn {
+        color: $quote-colour;
+        background: $button-links;
+        box-shadow: 0 5px 0 0 darken( $button-links, 05% );
+
+        &:hover {
+            box-shadow: 0 0 0 0 $button-links;
+        }
+    }
+
+    #twitterButton,
+    .cuntribute {
+        color: $button-links;
+    }
 }
 
 .colours2 {
+    $bg-colour2: #9BBEC7;
+    $links2: #DFF8EB;
+    $button2: #74776B;
+    $quote-colour2: #2B4141;
+    background: $bg-colour2;
 
-  $bg-colour2: #9BBEC7;
-  $links2: #DFF8EB;
-  $button2: #74776B;
-  $quote-colour2: #2B4141;
-
-  background: $bg-colour2;
-  h1 {
-    color: $quote-colour2;
-    text-shadow: 2px 2px 0px darken( $bg-colour2, 05% );
-  }
-  p {
-    color: $quote-colour2;
-    text-shadow: 10px 10px 0px darken( $bg-colour2, 05% );
-    text-shadow: 2px 2px 0px darken( $bg-colour2, 05% );
-  }
-  .btn {
-    color: $links2;
-    background: $button2;
-    box-shadow: 0px 5px 0px 0px darken( $button2, 05% );
-    &:hover {
-      box-shadow: 0px 0px 0px 0px $button2;
+    h1 {
+        color: $quote-colour2;
+        text-shadow: 2px 2px 0 darken( $bg-colour2, 05% );
     }
-  }
-  #twitterButton, .cuntribute {
-    color: $quote-colour2;
-  }
+
+    p {
+        color: $quote-colour2;
+        text-shadow: 10px 10px 0 darken( $bg-colour2, 05% );
+        @media screen and (max-width: 640px) {
+            text-shadow: 2px 2px 0 darken( $bg-colour2, 05% );
+        }
+    }
+
+    .btn {
+        color: $links2;
+        background: $button2;
+        box-shadow: 0 5px 0 0 darken( $button2, 05% );
+
+        &:hover {
+            box-shadow: 0 0 0 0 $button2;
+        }
+    }
+
+    #twitterButton,
+    .cuntribute {
+        color: $quote-colour2;
+    }
 }
 
 .colours3 {
+    $bg-colour3: #FCB0B3;
+    $links3: #DFF8EB;
+    $button3: #F93943;
+    $quote-colour3: #FCECC9;
+    background: $bg-colour3;
 
-  $bg-colour3: #FCB0B3;
-  $links3: #DFF8EB;
-  $button3: #F93943;
-  $quote-colour3: #FCECC9;
-
-  background: $bg-colour3;
-  h1 {
-    color: $quote-colour3;
-    text-shadow: 2px 2px 0px darken( $bg-colour3, 05% );
-  }
-  p {
-    color: $quote-colour3;
-    text-shadow: 10px 10px 0px darken( $bg-colour3, 05% );
-    text-shadow: 2px 2px 0px darken( $bg-colour3, 05% );
-  }
-  .btn {
-    color: $links3;
-    background: $button3;
-    box-shadow: 0px 5px 0px 0px darken( $button3, 05% );
-    &:hover {
-      box-shadow: 0px 0px 0px 0px $button3;
+    h1 {
+        color: $quote-colour3;
+        text-shadow: 2px 2px 0 darken( $bg-colour3, 05% );
     }
-  }
-  #twitterButton, .cuntribute {
-    color: $button3;
-  }
+
+    p {
+        color: $quote-colour3;
+        text-shadow: 10px 10px 0 darken( $bg-colour3, 05% );
+        @media screen and (max-width: 640px) {
+            text-shadow: 2px 2px 0 darken( $bg-colour3, 05% );
+        }
+    }
+
+    .btn {
+        color: $links3;
+        background: $button3;
+        box-shadow: 0 5px 0 0 darken( $button3, 05% );
+
+        &:hover {
+            box-shadow: 0 0 0 0 $button3;
+        }
+    }
+
+    #twitterButton,
+    .cuntribute {
+        color: $button3;
+    }
 }
 
 .colours4 {
+    $bg-colour4: #820115;
+    $links4: #3F0D12;
+    $button4: #2E0A0E;
+    $quote-colour4: #F1F0CC;
+    background: $bg-colour4;
 
-  $bg-colour4: #820115;
-  $links4: #3F0D12;
-  $button4: #2E0A0E;
-  $quote-colour4: #F1F0CC;
-
-  background: $bg-colour4;
-  h1 {
-    color: $quote-colour4;
-    text-shadow: 2px 2px 0px darken( $bg-colour4, 05% );
-  }
-  p {
-    color: $quote-colour4;
-    text-shadow: 10px 10px 0px darken( $bg-colour4, 05% );
-    text-shadow: 2px 2px 0px darken( $bg-colour4, 05% );
-  }
-  .btn {
-    color: $quote-colour4;
-    background: $links4;
-    box-shadow: 0px 5px 0px 0px darken( $links4, 05% );
-    &:hover {
-      box-shadow: 0px 0px 0px 0px $button4;
+    h1 {
+        color: $quote-colour4;
+        text-shadow: 2px 2px 0 darken( $bg-colour4, 05% );
     }
-  }
-  #twitterButton, .cuntribute {
-    color: $button4;
-  }
+
+    p {
+        color: $quote-colour4;
+        text-shadow: 10px 10px 0 darken( $bg-colour4, 05% );
+        @media screen and (max-width: 640px) {
+            text-shadow: 2px 2px 0 darken( $bg-colour4, 05% );
+        }
+    }
+
+    .btn {
+        color: $quote-colour4;
+        background: $links4;
+        box-shadow: 0 5px 0 0 darken( $links4, 05% );
+
+        &:hover {
+            box-shadow: 0 0 0 0 $button4;
+        }
+    }
+
+    #twitterButton,
+    .cuntribute {
+        color: $button4;
+    }
 }
 
 .colours5 {
+    $bg-colour5: #00A388;
+    $links5: #094C61;
+    $button5: #094C61;
+    $quote-colour5: #FFFF9D;
+    background: $bg-colour5;
 
-  $bg-colour5: #00A388;
-  $links5: #094C61;
-  $button5: #094C61;
-  $quote-colour5: #FFFF9D;
-
-  background: $bg-colour5;
-  h1 {
-    color: $quote-colour5;
-    text-shadow: 2px 2px 0px darken( $bg-colour5, 05% );
-  }
-  p {
-    color: $quote-colour5;
-    text-shadow: 10px 10px 0px darken( $bg-colour5, 05% );
-    text-shadow: 2px 2px 0px darken( $bg-colour5, 05% );
-  }
-  .btn {
-    color: $quote-colour5;
-    background: $links5;
-    box-shadow: 0px 5px 0px 0px darken( $links5, 05% );
-    &:hover {
-      box-shadow: 0px 0px 0px 0px $button5;
+    h1 {
+        color: $quote-colour5;
+        text-shadow: 2px 2px 0 darken( $bg-colour5, 05% );
     }
-  }
-  #twitterButton, .cuntribute {
-    color: $button5;
-  }
+
+    p {
+        color: $quote-colour5;
+        text-shadow: 10px 10px 0 darken( $bg-colour5, 05% );
+        @media screen and (max-width: 640px) {
+            text-shadow: 2px 2px 0 darken( $bg-colour5, 05% );
+        }
+    }
+
+    .btn {
+        color: $quote-colour5;
+        background: $links5;
+        box-shadow: 0 5px 0 0 darken( $links5, 05% );
+
+        &:hover {
+            box-shadow: 0 0 0 0 $button5;
+        }
+    }
+
+    #twitterButton,
+    .cuntribute {
+        color: $button5;
+    }
 }
 
 .colours6 {
+    $bg-colour6: #B8AE9C;
+    $links6: #595241;
+    $button6: #FFFFFF;
+    $quote-colour6: #FFFFFF;
+    background: $bg-colour6;
 
-  $bg-colour6: #B8AE9C;
-  $links6: #595241;
-  $button6: #FFFFFF;
-  $quote-colour6: #FFFFFF;
-
-  background: $bg-colour6;
-  h1 {
-    color: $quote-colour6;
-    text-shadow: 2px 2px 0px darken( $bg-colour6, 05% );
-  }
-  p {
-    color: $quote-colour6;
-    text-shadow: 10px 10px 0px darken( $bg-colour6, 05% );
-    text-shadow: 2px 2px 0px darken( $bg-colour6, 05% );
-  }
-  .btn {
-    color: $quote-colour6;
-    background: $links6;
-    box-shadow: 0px 5px 0px 0px darken( $links6, 05% );
-    &:hover {
-      box-shadow: 0px 0px 0px 0px $button6;
+    h1 {
+        color: $quote-colour6;
+        text-shadow: 2px 2px 0 darken( $bg-colour6, 05% );
     }
-  }
-  #twitterButton, .cuntribute {
-    color: $links6;
-  }
+
+    p {
+        color: $quote-colour6;
+        text-shadow: 10px 10px 0 darken( $bg-colour6, 05% );
+        @media screen and (max-width: 640px) {
+            text-shadow: 2px 2px 0 darken( $bg-colour6, 05% );
+        }
+    }
+
+    .btn {
+        color: $quote-colour6;
+        background: $links6;
+        box-shadow: 0 5px 0 0 darken( $links6, 05% );
+
+        &:hover {
+            box-shadow: 0 0 0 0 $button6;
+        }
+    }
+
+    #twitterButton,
+    .cuntribute {
+        color: $links6;
+    }
 }
 
 .colours7 {
+    $bg-colour7: #333745;
+    $links7: #77C4D3;
+    $button7: #EA2E49;
+    $quote-colour7: #DAEDE2;
+    background: $bg-colour7;
 
-  $bg-colour7: #333745;
-  $links7: #77C4D3;
-  $button7: #EA2E49;
-  $quote-colour7: #DAEDE2;
-
-  background: $bg-colour7;
-  h1 {
-    color: $quote-colour7;
-    text-shadow: 2px 2px 0px darken( $bg-colour7, 05% );
-  }
-  p {
-    color: $quote-colour7;
-    text-shadow: 10px 10px 0px darken( $bg-colour7, 05% );
-    text-shadow: 2px 2px 0px darken( $bg-colour7, 05% );
-  }
-  .btn {
-    color: $quote-colour7;
-    background: $button7;
-    box-shadow: 0px 5px 0px 0px darken( $button7, 05% );
-    &:hover {
-      box-shadow: 0px 0px 0px 0px $button7;
+    h1 {
+        color: $quote-colour7;
+        text-shadow: 2px 2px 0 darken( $bg-colour7, 05% );
     }
-  }
-  #twitterButton, .cuntribute {
-    color: $links7;
-  }
+
+    p {
+        color: $quote-colour7;
+        text-shadow: 10px 10px 0 darken( $bg-colour7, 05% );
+        @media screen and (max-width: 640px) {
+            text-shadow: 2px 2px 0 darken( $bg-colour7, 05% );
+        }
+    }
+
+    .btn {
+        color: $quote-colour7;
+        background: $button7;
+        box-shadow: 0 5px 0 0 darken( $button7, 05% );
+
+        &:hover {
+            box-shadow: 0 0 0 0 $button7;
+        }
+    }
+
+    #twitterButton,
+    .cuntribute {
+        color: $links7;
+    }
 }
 
 .colours8 {
+    $bg-colour8: #F56456;
+    $links8: #FFE7B2;
+    $button8: #FF974F;
+    $quote-colour8: #FFE7B2;
+    background: $bg-colour8;
 
-  $bg-colour8: #F56456;
-  $links8: #FFE7B2;
-  $button8: #FF974F;
-  $quote-colour8: #FFE7B2;
-
-  background: $bg-colour8;
-  h1 {
-    color: $quote-colour8;
-    text-shadow: 2px 2px 0px darken( $bg-colour8, 05% );
-  }
-  p {
-    color: $quote-colour8;
-    text-shadow: 10px 10px 0px darken( $bg-colour8, 05% );
-    text-shadow: 2px 2px 0px darken( $bg-colour8, 05% );
-  }
-  .btn {
-    color: $quote-colour8;
-    background: $button8;
-    box-shadow: 0px 5px 0px 0px darken( $button8, 05% );
-    &:hover {
-      box-shadow: 0px 0px 0px 0px $button8;
+    h1 {
+        color: $quote-colour8;
+        text-shadow: 2px 2px 0 darken( $bg-colour8, 05% );
     }
-  }
-  #twitterButton, .cuntribute {
-    color: $links8;
-  }
+
+    p {
+        color: $quote-colour8;
+        text-shadow: 10px 10px 0 darken( $bg-colour8, 05% );
+        @media screen and (max-width: 640px) {
+            text-shadow: 2px 2px 0 darken( $bg-colour8, 05% );
+        }
+    }
+
+    .btn {
+        color: $quote-colour8;
+        background: $button8;
+        box-shadow: 0 5px 0 0 darken( $button8, 05% );
+
+        &:hover {
+            box-shadow: 0 0 0 0 $button8;
+        }
+    }
+
+    #twitterButton,
+    .cuntribute {
+        color: $links8;
+    }
 }
