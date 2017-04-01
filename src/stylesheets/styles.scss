@@ -34,10 +34,14 @@ h1 {
   left: em(16);
   font-weight: 800;
   font-size: em(30);
-
+  svg {
+    width: 16vw;
+  }
   @media screen and (max-width: 640px) {
     display: block;
     text-align: center;
+    top: em(5);
+    left: em(10);
     svg {
       width: 40vw;
     }
