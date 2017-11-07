@@ -17,7 +17,7 @@ gulp.task('browser-sync', function(done) {
 		port: 4444,
 		server: {
 			directory: true,
-			baseDir: './dist'
+			baseDir: './docs'
 		},
 		open: false
 	}, done);
@@ -26,12 +26,12 @@ gulp.task('browser-sync', function(done) {
 gulp.task('js', function() {
   return gulp.src('./src/js/**/*.js')
     .pipe(concat('all.js'))
-    .pipe(gulp.dest('./dist/js'));
+    .pipe(gulp.dest('./docs/js'));
 });
 
 gulp.task('sass', function() {
 	return gulp.src('./src/stylesheets/styles.scss')
-		// .pipe(newer('./dist/css'))
+		// .pipe(newer('./docs/css'))
 		.pipe(plumber({
 			errorHandler: notify.onError("Error: <%= error.message%>")
 		}))
@@ -39,7 +39,7 @@ gulp.task('sass', function() {
 		.pipe(sourcemaps.write())
 		.pipe(sass({outputStyle: 'compressed'}))
 		.pipe(autoprefixer())
-		.pipe(gulp.dest('./dist/css'))
+		.pipe(gulp.dest('./docs/css'))
 		.pipe(browserSync.stream());
 });
 
@@ -47,17 +47,17 @@ gulp.task('sass', function() {
 
 gulp.task('pug', function() {
 	return gulp.src(['./src/pug/**/*.pug', '!./src/pug/**/_*.pug'])
-		.pipe(newer('./dist'))
+		.pipe(newer('./docs'))
 		.pipe(plumber({
 			errorHandler: notify.onError("Error: <%= error.message%>")
 		}))
 		.pipe(pug({pretty: true}))
-		.pipe(gulp.dest('./dist'))
+		.pipe(gulp.dest('./docs'))
 });
 
 gulp.task('image', function () {
   return gulp.src('./src/images/**/*')
-		.pipe(newer('./dist/images'))
+		.pipe(newer('./docs/images'))
 		.pipe(image({
       pngquant: true,
       optipng: false,
@@ -69,13 +69,13 @@ gulp.task('image', function () {
       svgo: true,
       concurrent: 1
     }))
-    .pipe(gulp.dest('./dist/images'));
+    .pipe(gulp.dest('./docs/images'));
 });
 
 gulp.task('fonts', function() {
 	return gulp.src('./src/fonts/**/*')
-		.pipe(newer('./dist/fonts'))
-		.pipe(gulp.dest('./dist/fonts'))
+		.pipe(newer('./docs/fonts'))
+		.pipe(gulp.dest('./docs/fonts'))
 		.pipe(browserSync.stream());
 });
 
