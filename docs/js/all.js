@@ -67,7 +67,19 @@ var quotes = [{
   "quote": "You’ve sat with your friends and talked about which Friends character each of you is most like."
 }, {
   "attrib": "Albert Einstein",
-  "quote": "You’ve talked with your friends about which Sex and the City character each of you is most like."
+  "quote": "You called your blog your ‘journal’."
+}, {
+  "attrib": "Albert Einstein",
+  "quote": "You’ve done a degree and you write the letters after your name like you’re a doctor or something."
+}, {
+  "attrib": "Albert Einstein",
+  "quote": "You snowboard."
+}, {
+  "attrib": "Albert Einstein",
+  "quote": "You like The Godfather Part III."
+}, {
+  "attrib": "Albert Einstein",
+  "quote": "You have a beer Friday… every day is beer day!"
 }, {
   "attrib": "Henry Ford",
   "quote": "You prefer the Nine Inch Nails version of Hurt."
