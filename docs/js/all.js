@@ -1,87 +1,117 @@
 // quotes are stored in an array of objects
 var quotes = [{
-  "attrib": "Steve Jobs",
+  "attrib": "",
   "quote": "You were born after 1990."
 }, {
-  "attrib": "Steve Jobs",
+  "attrib": "",
   "quote": "You like any emo produced after 2005."
 }, {
-  "attrib": "Albert Einstein",
+  "attrib": "",
   "quote": "You liked the band Jet, off of 2004."
 }, {
-  "attrib": "Albert Einstein",
+  "attrib": "",
   "quote": "You use a burr coffee bean grinder for a ‘better flavour profile’."
 }, {
-  "attrib": "Albert Einstein",
+  "attrib": "",
   "quote": "You’ve never sent a ‘you still up’ text after 2:00am."
 }, {
-  "attrib": "Steve Jobs",
+  "attrib": "",
   "quote": "You’ve never met a UK Gladiator."
 }, {
   "attrib": "Bill Gates",
   "quote": "You’ve ever rattled out wonderwall on an acoustic guitar at a house party."
 }, {
-  "attrib": "Albert Einstein",
+  "attrib": "",
   "quote": "You smoke roll ups."
 }, {
-  "attrib": "Albert Einstein",
+  "attrib": "",
   "quote": "You’ve dumped someone by text."
 }, {
-  "attrib": "Albert Einstein",
+  "attrib": "",
   "quote": "You own or have ever owned a flip phone."
 }, {
-  "attrib": "Albert Einstein",
+  "attrib": "",
   "quote": "You think that Justin Beiber's new stuff is “actually pretty good”."
 }, {
-  "attrib": "Albert Einstein",
+  "attrib": "",
   "quote": "You’ve ever described yourself as feeling ‘stoked’."
 }, {
-  "attrib": "Albert Einstein",
+  "attrib": "",
   "quote": "You think that techno music is ‘just noise’."
 }, {
-  "attrib": "Albert Einstein",
+  "attrib": "",
   "quote": "You’re offended by the word ‘cunt’."
 }, {
-  "attrib": "Albert Einstein",
+  "attrib": "",
   "quote": "You think The Thick Of It is funny but the “swearing is unneccessary”."
 }, {
-  "attrib": "Albert Einstein",
+  "attrib": "",
   "quote": "You write down in a little book the things you've loaned to people."
 }, {
-  "attrib": "Albert Einstein",
+  "attrib": "",
   "quote": "You’re from the UK and you've ever posted #datenight."
 }, {
-  "attrib": "Albert Einstein",
+  "attrib": "",
   "quote": "You’ve ever done one of those “I'm just going to leave this here” posts."
 }, {
-  "attrib": "Albert Einstein",
+  "attrib": "",
   "quote": "You end sentences with “right?” or “yeah?”."
 }, {
-  "attrib": "Albert Einstein",
+  "attrib": "",
   "quote": "You’ve never thumbed in a softy."
 }, {
-  "attrib": "Albert Einstein",
+  "attrib": "",
   "quote": "You’ve never drunk-pissed the bed."
 }, {
-  "attrib": "Albert Einstein",
+  "attrib": "",
   "quote": "You’ve sat with your friends and talked about which Friends character each of you is most like."
 }, {
-  "attrib": "Albert Einstein",
+  "attrib": "",
   "quote": "You called your blog your ‘journal’."
 }, {
-  "attrib": "Albert Einstein",
+  "attrib": "",
   "quote": "You’ve done a degree and you write the letters after your name like you’re a doctor or something."
 }, {
-  "attrib": "Albert Einstein",
+  "attrib": "",
   "quote": "You snowboard."
 }, {
-  "attrib": "Albert Einstein",
+  "attrib": "",
   "quote": "You like The Godfather Part III."
 }, {
-  "attrib": "Albert Einstein",
+  "attrib": "",
   "quote": "You have a beer Friday… every day is beer day!"
 }, {
-  "attrib": "Henry Ford",
+  "attrib": "",
+  "quote": "You say ‘on point’"
+}, {
+  "attrib": "",
+  "quote": "You own a fedora."
+}, {
+  "attrib": "",
+  "quote": "You’re a guy who pisses in the cubicle when a urinal is free."
+}, {
+  "attrib": "",
+  "quote": "You drink Fosters"
+}, {
+  "attrib": "",
+  "quote": "You wear boat shoes with no socks."
+}, {
+  "attrib": "",
+  "quote": "You do Crossfit."
+}, {
+  "attrib": "",
+  "quote": "You’ve never sharted."
+}, {
+  "attrib": "",
+  "quote": "You’ve asked your friends to help fund your trip to Africa to ‘build schools’ or whatever."
+}, {
+  "attrib": "",
+  "quote": "You think gin is better than whisky."
+}, {
+  "attrib": "",
+  "quote": "You spent over £10 on your KeepCup."
+}, {
+  "attrib": "",
   "quote": "You prefer the Nine Inch Nails version of Hurt."
 }];
 
