@@ -85,6 +85,33 @@ var quotes = [{
   "quote": "You say ‘on point’"
 }, {
   "attrib": "",
+  "quote": "You own a fedora."
+}, {
+  "attrib": "",
+  "quote": "You’re a guy who pisses in the cubicle when a urinal is free."
+}, {
+  "attrib": "",
+  "quote": "You drink Fosters"
+}, {
+  "attrib": "",
+  "quote": "You wear boat shoes with no socks."
+}, {
+  "attrib": "",
+  "quote": "You do Crossfit."
+}, {
+  "attrib": "",
+  "quote": "You’ve never sharted."
+}, {
+  "attrib": "",
+  "quote": "You’ve asked your friends to help fund your trip to Africa to ‘build schools’ or whatever."
+}, {
+  "attrib": "",
+  "quote": "You think gin is better than whisky."
+}, {
+  "attrib": "",
+  "quote": "You spent over £10 on your KeepCup."
+}, {
+  "attrib": "",
   "quote": "You prefer the Nine Inch Nails version of Hurt."
 }];
 
