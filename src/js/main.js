@@ -1,7 +1,7 @@
 // quotes are stored in an array of objects
 var quotes = [{
   "attrib": "",
-  "quote": "You pass of ThemeForest themes as your own."
+  "quote": "You pass off ThemeForest themes as your own."
 },{
   "attrib": "",
   "quote": "You eat or chew loudly."
@@ -29,6 +29,9 @@ var quotes = [{
 }, {
   "attrib": "",
   "quote": "You’ve never met a UK Gladiator."
+}, {
+  "attrib": "",
+  "quote": "You don't think scotland should be an independent country."
 }, {
   "attrib": "Bill Gates",
   "quote": "You’ve ever rattled out wonderwall on an acoustic guitar at a house party."
